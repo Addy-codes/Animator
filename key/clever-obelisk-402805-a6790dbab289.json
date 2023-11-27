@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "clever-obelisk-402805",
+  "private_key_id": "a6790dbab2899d2b1b2b4f0d7c159465de5a23c3",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDKHHIwt6enNtni\nbeNk1h8dfIu72PKATh6G8sfmg0Jj5kCqx2YWBSbmKf45Ju6IQdDWtzvIB0KKNKpQ\nL/evDKXHTVWvDsVxjlXPH8J4dbW5kVc9WB+Lf9p9Vtp6jLBPQ5Wtk5zqA1xBSwNf\nWpklAQedP6KmhBQMoN2IycNE6CaAlTUgJg/DxucfCYQgvmBgQ6rPcrUOe7abf0kJ\n0Vs7zBJaJ9EtwbxNNWiqpZ6NYYPh0HNo39a+OnDc8n/F3dLoJUlI5h3aHTP/3H6s\n+6LrlHjv+JzSLRTfEdxYwPE6N3W+C+dhMHM/MaPH5aUzY80+Uq2sXRc1h9nJxNaI\nFhoVGd9JAgMBAAECggEACJXb7EGyQ4+NrV6VdoAvAFm89ieRfjhIooW3zqJcRLHw\nT3YwGgwxemelwYfrwYophM7HTBMHiqc75d3ybkiXVoeXNca8ReYx3cjKV24eoFRH\ndFcPjfrfd+Fjif77HVQwYe105gRAXBNY6xPGO3TB/fYeTWcBErFBqoYcP0uCQ9t0\nu3OQ/JzhAP/jygV8WFUliX/gYHMKLRdFw9pXpLFogQ7xLjI30xLfwg7Mr0rS5kTA\nMhjC6In0muyHuFDCDgtZLbt9wxr+dXJgcoTfk+KC/4M4HYNfWQtYfxdMuddOdal4\nejDyFw58coXKvyF6qfkpB2pSsr21XWpwXJZqOJFY1QKBgQDmwk8HPNr/8gxPcNx7\nltmB8OhH16zSBjeU1e9y5Sa9BISNToaD0juJsRiXueYg6IaoqO7xI++iaEiWbhF7\neIBeN9Qp+SIBlf99B8znoP3cvT3+7nkKoNWRXRKm7XOHi4v7gp3Q88FGBFkCK8tP\nwSkJTGaeqKv2kaaYScwuHRqpjQKBgQDgN/EQEPvkjQJnzNiz3/PYo47zmCMDnzFy\nw44W3Ya/S3dVdCREkaAJev11t6/wBugy0BlD9BHjJkAeCHbq/7n0sRUQeeWqXHu/\nttL3FeOM6HoU/Y1LAuXfbh/bvVM7luZhCcLgs9VhYz+k7fcGem2DfkyT9nji6K9+\ndwvwAEg3rQKBgEYQu6Qr8ycBnIFGeHvCKtrMhgrCTsQahSfY6XKOZ3u+8mxhanB+\nFfvR3PC8zkYxtClj2eE4ExvR5DBgzUgbJ4b0FqSD87JdlAynoKy38jzi7P8J85Cp\nkw8nHnG26Xw/f8pnN3npeUbELS5+k6XstYQQQZxtBIHCab4VsjxSM/VFAoGBAKQI\nKQJQ+obMpircENkfCNy/Y1BQR6VZrCpCaEvQCskd45KPogzL4KGu6YhaNotJ8kti\nNGmjQAbGr/eIx77KEPezKS7hjqRgfmPV02bSC6PFW7LJf7mVyCf5/7KZQjABCE+L\nfZc32O4jVqdJNAP4QvAE0O8aTHvsMJ87Zm9RNYQNAoGBAINAde+O9t7InI6M4myC\nPbJDPlfBpw0vbjL3nibmp8LlePuuEEjkrFKsuQhayv6WxnEUcQX0EIXsMntgu/jL\nFKhJI58n2YTfVKvcEa5f5FtFpg8ZEZ9b7Td4rsZROeOd27P4BFp3d7C2kXKVVnB2\npBC+sRDauT6jLAbQslSf05lw\n-----END PRIVATE KEY-----\n",
+  "client_email": "rimorai-assignment-999@clever-obelisk-402805.iam.gserviceaccount.com",
+  "client_id": "106839320637524276423",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/rimorai-assignment-999%40clever-obelisk-402805.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

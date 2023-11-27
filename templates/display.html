@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>View Model</title>
+    <style>
+        canvas {
+            width: 100%;
+            height: 100vh;
+            /* Adjust height as needed */
+        }
+    </style>
+</head>
+
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.130.0/examples/js/loaders/GLTFLoader.js"></script>
+    <script>
+        let scene, camera, renderer;
+
+        function init() {
+            scene = new THREE.Scene();
+            camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+            renderer = new THREE.WebGLRenderer();
+            renderer.setSize(window.innerWidth, window.innerHeight);
+            document.body.appendChild(renderer.domElement);
+
+            // Add some lighting
+            const ambientLight = new THREE.AmbientLight(0xffffff, 0.5);
+            scene.add(ambientLight);
+            const directionalLight = new THREE.DirectionalLight(0xffffff, 0.5);
+            scene.add(directionalLight);
+
+            // CORS Proxy
+            const corsProxy = 'https://cors-anywhere.herokuapp.com/';
+            const modelUrl = '{{ model_url|safe }}';
+            const proxiedUrl = corsProxy + encodeURIComponent(modelUrl);
+
+            // Load the GLB model using the proxy
+            const loader = new THREE.GLTFLoader();
+            loader.load(proxiedUrl, function (gltf) {
+                scene.add(gltf.scene);
+                camera.position.set(0, 0, 5);
+                animate();
+            }, undefined, function (error) {
+                console.error("Error loading model: ", error);
+            });
+        }
+
+        function animate() {
+            requestAnimationFrame(animate);
+            renderer.render(scene, camera);
+        }
+
+        init();
+    </script>
+</body>
+
+</html>
